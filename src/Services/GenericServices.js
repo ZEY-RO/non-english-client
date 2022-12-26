@@ -1,7 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3000/";
-// axios.defaults.headers.common["x-auth-token"] = localStorage.getItem("token");
+axios.defaults.baseURL = "https://calm-garden-89750.herokuapp.com/";
 
 class GenericService {
   get = (url) =>
